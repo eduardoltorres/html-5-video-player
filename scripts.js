@@ -21,11 +21,9 @@ function togglePlay() {
 let fullScreen = false;
 function toggleFull() {
     if (fullScreen) {
-        console.log('works');
         document.webkitExitFullscreen();
         fullScreen = false;
     } else {
-        console.log('works');
         player.webkitRequestFullScreen();
         fullScreen = true;
     }
